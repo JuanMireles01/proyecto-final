@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50)), url(https://losmejorescolegios.com/wp-content/uploads/2020/11/C%C3%B3mo-cuidar-el-planeta-y-brindarle-educaci%C3%B3n-de-calidad-a-tu-hijo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.menú {
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menú ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.menú ul li a {
+    text-decoration: none;
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+}
+
+.menú ul li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    left: 0;
+    position: absolute;
+    background-color: aqua;
+    bottom: -12px;
+    transition: 0.3s ease-out;
+}
+
+.menú ul li:hover::before {
+    width: 100%;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
